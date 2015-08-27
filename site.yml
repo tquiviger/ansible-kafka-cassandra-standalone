@@ -1,0 +1,15 @@
+- hosts: all
+  roles:
+    - { role: java, when: accept_oracle_licence }
+
+- hosts: zk
+  roles:
+    - zookeeper
+
+- hosts: kafka
+  roles:
+    - kafka
+
+- hosts: cassandra
+  roles:
+    - cassandra

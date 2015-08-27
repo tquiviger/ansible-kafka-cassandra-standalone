@@ -1,0 +1,4 @@
+config:
+   seeds: '192.168.5.104'
+   listen_address: 192.168.5.104
+   rpc_address: 192.168.5.104
